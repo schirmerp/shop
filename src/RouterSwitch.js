@@ -6,7 +6,7 @@ const RouterSwitch = () =>{
     return(
         <HashRouter>
             <Routes>
-                <Route path="/" element={<App />} />
+                <Route path="/" element={<App />}></Route>
                 <Route path="/shop" element={<Shop />}></Route>
             </Routes>
         </HashRouter>
